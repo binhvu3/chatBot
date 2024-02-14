@@ -4,6 +4,11 @@ import subprocess
 app = Flask(__name__)
 
 
+@app.route("/", methods=["GET"])
+def get_greet():
+    return jsonify({"Greeting": "Hello"})
+
+
 @app.route("/date", methods=["GET"])
 def get_date():
     result = subprocess.check_output(["date"]).decode("utf-8")
