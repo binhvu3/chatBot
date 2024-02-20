@@ -36,6 +36,15 @@ Goal is to produced ChatGPT like chatbot with open source LLM and linking everyt
 pip install flask
 python -m flask --app website run
 ```
+Retrieve current enviroment setup
+```
+import os
+from dotenv import load_dotenv
+load_dotenv()
+# True
+print(os.getenv("ENVIROMENT"))
+# Development
+```
 ## Acknowledgments
 
 Thanks to [RealPython](https://realpython.com/flask-project/) for guide.
