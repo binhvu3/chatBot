@@ -1,0 +1,34 @@
+*{
+ box-sizing:border-box;
+ }
+
+body{
+  font-family:san-serif;
+  font-size:20px;
+  margin:0auto;
+  text-align:center;
+}
+
+a,
+a.visited{
+  color:#007bff;
+}
+
+a:hover{
+  color:#0056b3
+}
+
+navul{
+  list-style-type:none;
+  padding:0;
+}
+
+navulli{
+  display:inline;
+  margin:05px;
+}
+
+main{
+  width:80%;
+  margin:auto;
+}
