@@ -2,12 +2,12 @@
 <h1 align="center"> ChatBot </h1> <br>
 <p align="center">
   <a href="">
-    <img alt="Robot" title="Robot" src="https://i.pinimg.com/originals/89/24/a2/8924a2c2c21babe5807a10f524ee89fd.jpg" width="150">
+    <img alt="Robot" title="Robot" src="https://static.vecteezy.com/system/resources/previews/000/271/349/original/chatbot-web-banner-vector.jpg" width="550">
   </a>
 </p>
 
 <p align="center">
-  Utilizing the power of AI to engage in a personalize conversation!
+  "Embracing the prowess of AI, we delve into the realm of personalized conversation, harnessing its capabilities to foster meaningful interactions."
 </p>
 
 
