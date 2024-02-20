@@ -23,12 +23,12 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Introduction
+Goal is to produced ChatGPT like chatbot with open source LLM and linking everything together with API.
 
 ## Features
 
-A few of the things you can do with GitPoint:
-
-* API integration
+* API integration with Flask
+* Jinja template for dynamic HTML site
 
 
 ## Installation
