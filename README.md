@@ -29,6 +29,8 @@ Goal is to produced ChatGPT like chatbot with open source LLM and linking everyt
 
 * API integration with Flask
 * Jinja template for dynamic HTML site
+* Basic CSS to enhance bare bone site
+* Built in databse with sqlite3
 
 
 ## Installation
