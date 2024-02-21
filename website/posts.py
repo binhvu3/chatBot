@@ -1,4 +1,12 @@
-from flask import Blueprint, render_template, redirect, request, url_for
+from flask import (
+    Blueprint,
+    render_template,
+    redirect,
+    request,
+    url_for,
+    flash,
+    current_app,
+)
 from website.database import get_db
 
 bp = Blueprint("posts", __name__)
@@ -17,7 +25,11 @@ def create():
                 (author, message),
             )
             db.commit()
+            current_app.logger.info(f"New post by {author}")
+            flash(f"Thanks for posting, {author}!", category="success")
             return redirect(url_for("posts.posts"))
+        else:
+            flash("You need to post a message.", category="error")
     return render_template("posts/create.html")
 
 
