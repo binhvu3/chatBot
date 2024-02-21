@@ -45,6 +45,10 @@ load_dotenv()
 print(os.getenv("ENVIROMENT"))
 # Development
 ```
+Start/reinitialize the sqlite3 database
+```
+python -m flask --app website init-db
+```
 ## Acknowledgments
 
 Thanks to [RealPython](https://realpython.com/flask-project/) for guide.
