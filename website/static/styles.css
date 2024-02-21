@@ -35,7 +35,7 @@ main{
 
 article,
 form{
-  text-align:left;
+  text-align:center;
   min-width:200px;
   padding:20px;
   margin-bottom:20px;
@@ -45,7 +45,7 @@ form{
 
 aside{
   color:#ccc;
-  text-align:right;
+  text-align:center;
 }
 
 form{
