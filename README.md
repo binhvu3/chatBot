@@ -60,6 +60,19 @@ Start/reinitialize the sqlite3 database
 ```
 python -m flask --app website init-db
 ```
+
+Using PythonAnywhere
+```
+# Open Bash Console
+git clone https://github.com/binhvu3/chatBot.git
+
+# Generate virual enviroment - https://help.pythonanywhere.com/pages/Flask/
+mkvirtualenv --python=/usr/bin/python3.10 my-virtualenv
+pip install -r requirements.txt
+
+# Add virutal enviroment to Virtualenv (in webapp configuration)
+(/home/yourusername/.virtualenvs/my-virtualenv)
+```
 ## Acknowledgments
 
 Thanks to [RealPython](https://realpython.com/flask-project/) for guide.
