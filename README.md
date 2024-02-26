@@ -61,7 +61,7 @@ Start/reinitialize the sqlite3 database
 python -m flask --app website init-db
 ```
 
-Using PythonAnywhere
+### Using PythonAnywhere
 ```
 # Open Bash Console
 git clone https://github.com/binhvu3/chatBot.git
