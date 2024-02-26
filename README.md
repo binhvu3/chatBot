@@ -49,6 +49,13 @@ load_dotenv()
 print(os.getenv("ENVIROMENT"))
 # Development
 ```
+
+Before sqlite3 databse:
+``` python
+import secrets
+secrets.token_hex()
+```
+
 Start/reinitialize the sqlite3 database
 ```
 python -m flask --app website init-db
